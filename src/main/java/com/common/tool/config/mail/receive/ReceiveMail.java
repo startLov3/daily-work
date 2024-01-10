@@ -19,11 +19,11 @@ import java.util.*;
 public class ReceiveMail {
 
     public static void main(String[] args) {
-        String username = "zwzxxz@js.chinamobile.com"; // 邮箱账号
-        String password = "22CD4A4C273E5075D400"; // 邮箱密码
-        String protocol = "pop3"; // 接收协议
-        String port = "110"; // 端口
-        String host = protocol + "." + "js.chinamobile.com"; // 邮件服务器主机名
+        String username = ""; // 邮箱账号
+        String password = ""; // 邮箱密码
+        String protocol = ""; // 接收协议
+        String port = ""; // 端口
+        String host = protocol + "." + ""; // 邮件服务器主机名
         // 设置连接属性
         Properties props = new Properties();
         props.setProperty("mail.store.protocol", protocol);
