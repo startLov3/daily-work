@@ -1,6 +1,5 @@
 package com.common.tool.config.excel;
 
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -11,6 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/*复制excel内容到新excel文件中*/
 public class ExcelCopyExample {
 
     public static void main(String[] args) {
