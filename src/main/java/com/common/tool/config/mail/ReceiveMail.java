@@ -1,4 +1,4 @@
-package com.common.tool.config.mail.receive;
+package com.common.tool.config.mail;
 
 import javax.mail.*;
 import javax.mail.internet.ContentType;

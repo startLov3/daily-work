@@ -1,4 +1,4 @@
-package com.common.tool.config.mail.receive;
+package com.common.tool.config.mail;
 
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
